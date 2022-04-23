@@ -1,6 +1,7 @@
 # valyute
 
 A new Flutter project.
+![photo_2022-04-23_13-43-43](https://user-images.githubusercontent.com/97499859/164887422-e2ced069-3fec-4f88-b942-65a2daa19c1f.jpg)
 
 ## Getting Started
 
