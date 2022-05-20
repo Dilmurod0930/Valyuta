@@ -12,8 +12,8 @@ class MyBoxDecoration {
   static bottomBorder({Color? color}) {
     return BoxDecoration(
       borderRadius: const BorderRadius.only(
-          bottomLeft: Radius.circular(20.0),
-          bottomRight: Radius.circular(20.0)),
+          bottomLeft: Radius.circular(0.0),
+          bottomRight: Radius.circular(0.0)),
       color: color,
     );
   }

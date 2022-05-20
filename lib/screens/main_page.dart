@@ -18,7 +18,6 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     _pages = [
       ConverterPage(),
@@ -42,6 +41,7 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
       unselectedItemColor: MyColor.kPrimaryGrey,
       items: const [
         BottomNavigationBarItem(
+          backgroundColor: Colors.amber,
             icon: Icon(Icons.currency_exchange_outlined),
             label: "Valyuta hisoblas"),
         BottomNavigationBarItem(

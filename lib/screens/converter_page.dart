@@ -33,7 +33,7 @@ class _ConverterPageState extends State<ConverterPage> {
           return Center(
             child: MyText(
               text: "Internet bilan muammo bor :( tekshirib qaytadan kiring",
-              color: MyColor.kPrimaryColor,
+              color: MyColor.kGreen,
             ),
           );
         } else {
@@ -43,15 +43,15 @@ class _ConverterPageState extends State<ConverterPage> {
               Column(
                 children: [
                   Expanded(
-                    flex: 2,
+                    flex: 1,
                     child: AppBarWidget(
                       text: "Valyutalar",
                     ),
                   ),
                   Expanded(
-                    flex: 8,
+                    flex: 9,
                     child: Container(
-                      color: MyColor.kWhite,
+                      color: MyColor.kGrey,
                     ),
                   )
                 ],
@@ -60,10 +60,10 @@ class _ConverterPageState extends State<ConverterPage> {
                 child: Positioned(
                   child: Container(
                     width: MediaQuery.of(context).size.width * 0.8,
-                    height: MediaQuery.of(context).size.height * 0.5,
+                    height: MediaQuery.of(context).size.height * 0.6,
                     padding: const EdgeInsets.all(10.0),
                     decoration: MyBoxDecoration.boxDecWithShadow(
-                        color: MyColor.kWhite, shadowColor: MyColor.kGrey),
+                        color: MyColor.kPrimaryGrey.withOpacity(0.04), shadowColor: MyColor.kGrey),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [

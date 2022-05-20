@@ -7,8 +7,6 @@ import 'package:valyute/core/constants/colors.dart';
 import 'package:valyute/data/code_info_data.dart';
 import 'package:valyute/data/flag_data.dart';
 import 'package:valyute/models/currency_model.dart';
-import 'package:valyute/screens/converter_page.dart';
-import 'package:valyute/screens/main_page.dart';
 import 'package:valyute/service/currency_service.dart';
 import 'package:valyute/widgets/app_bar_widget.dart';
 
@@ -47,7 +45,7 @@ class _ExchangePageState extends State<ExchangePage> {
                   AppBarWidget(text: "Valyutalar"),
               ),
               Expanded(
-                flex: 8,
+                flex: 7,
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 10.0),
                   child: ListView.builder(
